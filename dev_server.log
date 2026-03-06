@@ -1,0 +1,137 @@
+
+> app@0.0.1 dev
+> astro dev
+
+03:29:43 [types] Generated 3ms
+03:29:44 [content] Syncing content
+03:29:45 [content] Synced content
+03:29:45 [vite] Re-optimizing dependencies because vite config has changed
+
+ astro  v5.18.0 ready in 2253 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+
+03:29:45 watching for file changes...
+03:30:56 [200] / 64ms
+03:30:58 [200] /blog 72ms
+03:32:03 [WARN] [glob-loader] Duplicate id "a-review-of-csa-top-threats-to-cloud-computing-2024" found in /app/src/content/blog/a-review-of-csa-top-threats-to-cloud-computing-2024.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from a-review-of-csa-top-threats-to-cloud-computing-2024.md
+03:32:03 [WARN] [glob-loader] Duplicate id "fortifying-flavors-a-comparison-of-security-programs-and-the-path-to-maturity" found in /app/src/content/blog/fortifying-flavors-a-comparison-of-security-programs-and-the-path-to-maturity.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from fortifying-flavors-a-comparison-of-security-programs-and-the-path-to-maturity.md
+03:32:03 [WARN] [glob-loader] Duplicate id "ai-in-the-enterprise-building-a-checklist-for-ai-adoption" found in /app/src/content/blog/ai-in-the-enterprise-building-a-checklist-for-ai-adoption.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from ai-in-the-enterprise-building-a-checklist-for-ai-adoption.md
+03:32:03 [WARN] [glob-loader] Duplicate id "phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything" found in /app/src/content/blog/phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything.md
+03:32:03 [WARN] [glob-loader] Duplicate id "review-csas-cbra-for-ai-systems" found in /app/src/content/blog/review-csas-cbra-for-ai-systems.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from review-csas-cbra-for-ai-systems.md
+03:32:03 [WARN] [glob-loader] Duplicate id "the-security-policy-as-code-framework-model" found in /app/src/content/blog/the-security-policy-as-code-framework-model.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from the-security-policy-as-code-framework-model.md
+03:32:03 [WARN] [glob-loader] Duplicate id "collect-and-conquer-security-question-frameworks-for-onboarding" found in /app/src/content/blog/collect-and-conquer-security-question-frameworks-for-onboarding.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from collect-and-conquer-security-question-frameworks-for-onboarding.md
+03:32:03 [WARN] [glob-loader] Duplicate id "what-over-how-from-process-design-to-goal-definition-with-ai-agents" found in /app/src/content/blog/what-over-how-from-process-design-to-goal-definition-with-ai-agents.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from what-over-how-from-process-design-to-goal-definition-with-ai-agents.md
+03:32:03 [WARN] [glob-loader] Duplicate id "the-saas-security-controls-profile-sscp" found in /app/src/content/blog/the-saas-security-controls-profile-sscp.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from the-saas-security-controls-profile-sscp.md
+03:32:03 [WARN] [glob-loader] Duplicate id "the-shrinking-moat-examining-job-security-in-the-age-of-ai" found in /app/src/content/blog/the-shrinking-moat-examining-job-security-in-the-age-of-ai.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from the-shrinking-moat-examining-job-security-in-the-age-of-ai.md
+03:32:03 [WARN] [glob-loader] Duplicate id "productivity-is-your-new-insider-threat" found in /app/src/content/blog/productivity-is-your-new-insider-threat.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from productivity-is-your-new-insider-threat.md
+03:32:03 [WARN] [glob-loader] Duplicate id "ai-bends-the-vulnerability-curve" found in /app/src/content/blog/ai-bends-the-vulnerability-curve.md. Later items with the same id will overwrite earlier ones.
+03:32:03 [glob-loader] Reloaded data from ai-bends-the-vulnerability-curve.md
+03:32:03 [WARN] [glob-loader] Duplicate id "ai-and-threat-modeling-augmentation-not-automation-yet" found in /app/src/content/blog/ai-and-threat-modeling-augmentation-not-automation-yet.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from ai-and-threat-modeling-augmentation-not-automation-yet.md
+03:32:04 [WARN] [glob-loader] Duplicate id "the-security-program-why-fundamentals-for-enabling-success" found in /app/src/content/blog/the-security-program-why-fundamentals-for-enabling-success.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from the-security-program-why-fundamentals-for-enabling-success.md
+03:32:04 [WARN] [glob-loader] Duplicate id "from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai" found in /app/src/content/blog/from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai.md
+03:32:04 [WARN] [glob-loader] Duplicate id "scheduling-cti-automating-cyber-threat-intelligence-with-ai" found in /app/src/content/blog/scheduling-cti-automating-cyber-threat-intelligence-with-ai.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from scheduling-cti-automating-cyber-threat-intelligence-with-ai.md
+03:32:04 [WARN] [glob-loader] Duplicate id "ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy" found in /app/src/content/blog/ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy.md
+03:32:04 [WARN] [glob-loader] Duplicate id "overcoming-security-architecture-challenges-the-promise-of-ai" found in /app/src/content/blog/overcoming-security-architecture-challenges-the-promise-of-ai.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from overcoming-security-architecture-challenges-the-promise-of-ai.md
+03:32:04 [WARN] [glob-loader] Duplicate id "organizational-security-policy-as-code" found in /app/src/content/blog/organizational-security-policy-as-code.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from organizational-security-policy-as-code.md
+03:32:04 [WARN] [glob-loader] Duplicate id "job-description-to-done-developing-an-ai-prompt-for-making-prompts" found in /app/src/content/blog/job-description-to-done-developing-an-ai-prompt-for-making-prompts.md. Later items with the same id will overwrite earlier ones.
+03:32:04 [glob-loader] Reloaded data from job-description-to-done-developing-an-ai-prompt-for-making-prompts.md
+03:32:41 [glob-loader] Reloaded data from a-review-of-csa-top-threats-to-cloud-computing-2024.md
+03:32:41 [glob-loader] Reloaded data from fortifying-flavors-a-comparison-of-security-programs-and-the-path-to-maturity.md
+03:32:41 [glob-loader] Reloaded data from ai-in-the-enterprise-building-a-checklist-for-ai-adoption.md
+03:32:41 [glob-loader] Reloaded data from phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything.md
+03:32:41 [glob-loader] Reloaded data from review-csas-cbra-for-ai-systems.md
+03:32:41 [glob-loader] Reloaded data from the-security-policy-as-code-framework-model.md
+03:32:41 [glob-loader] Reloaded data from what-over-how-from-process-design-to-goal-definition-with-ai-agents.md
+03:32:41 [glob-loader] Reloaded data from collect-and-conquer-security-question-frameworks-for-onboarding.md
+03:32:41 [glob-loader] Reloaded data from the-saas-security-controls-profile-sscp.md
+03:32:41 [glob-loader] Reloaded data from the-shrinking-moat-examining-job-security-in-the-age-of-ai.md
+03:32:41 [glob-loader] Reloaded data from ai-bends-the-vulnerability-curve.md
+03:32:41 [glob-loader] Reloaded data from productivity-is-your-new-insider-threat.md
+03:32:41 [glob-loader] Reloaded data from ai-and-threat-modeling-augmentation-not-automation-yet.md
+03:32:41 [glob-loader] Reloaded data from scheduling-cti-automating-cyber-threat-intelligence-with-ai.md
+03:32:41 [glob-loader] Reloaded data from the-security-program-why-fundamentals-for-enabling-success.md
+03:32:41 [glob-loader] Reloaded data from ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy.md
+03:32:41 [glob-loader] Reloaded data from from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai.md
+03:32:41 [glob-loader] Reloaded data from overcoming-security-architecture-challenges-the-promise-of-ai.md
+03:32:41 [glob-loader] Reloaded data from organizational-security-policy-as-code.md
+03:32:41 [glob-loader] Reloaded data from job-description-to-done-developing-an-ai-prompt-for-making-prompts.md
+03:33:01 [200] / 10ms
+03:33:01 [200] /blog 42ms
+03:33:28 [WARN] [glob-loader] Duplicate id "a-review-of-csa-top-threats-to-cloud-computing-2024" found in /app/src/content/blog/a-review-of-csa-top-threats-to-cloud-computing-2024.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from a-review-of-csa-top-threats-to-cloud-computing-2024.md
+03:33:28 [glob-loader] Reloaded data from fortifying-flavors-a-comparison-of-security-programs-and-the-path-to-maturity.md
+03:33:28 [WARN] [glob-loader] Duplicate id "ai-in-the-enterprise-building-a-checklist-for-ai-adoption" found in /app/src/content/blog/ai-in-the-enterprise-building-a-checklist-for-ai-adoption.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from ai-in-the-enterprise-building-a-checklist-for-ai-adoption.md
+03:33:28 [WARN] [glob-loader] Duplicate id "phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything" found in /app/src/content/blog/phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything.md
+03:33:28 [WARN] [glob-loader] Duplicate id "review-csas-cbra-for-ai-systems" found in /app/src/content/blog/review-csas-cbra-for-ai-systems.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from review-csas-cbra-for-ai-systems.md
+03:33:28 [glob-loader] Reloaded data from the-security-policy-as-code-framework-model.md
+03:33:28 [glob-loader] Reloaded data from collect-and-conquer-security-question-frameworks-for-onboarding.md
+03:33:28 [WARN] [glob-loader] Duplicate id "what-over-how-from-process-design-to-goal-definition-with-ai-agents" found in /app/src/content/blog/what-over-how-from-process-design-to-goal-definition-with-ai-agents.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from what-over-how-from-process-design-to-goal-definition-with-ai-agents.md
+03:33:28 [WARN] [glob-loader] Duplicate id "the-saas-security-controls-profile-sscp" found in /app/src/content/blog/the-saas-security-controls-profile-sscp.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from the-saas-security-controls-profile-sscp.md
+03:33:28 [WARN] [glob-loader] Duplicate id "the-shrinking-moat-examining-job-security-in-the-age-of-ai" found in /app/src/content/blog/the-shrinking-moat-examining-job-security-in-the-age-of-ai.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from the-shrinking-moat-examining-job-security-in-the-age-of-ai.md
+03:33:28 [glob-loader] Reloaded data from productivity-is-your-new-insider-threat.md
+03:33:28 [WARN] [glob-loader] Duplicate id "ai-bends-the-vulnerability-curve" found in /app/src/content/blog/ai-bends-the-vulnerability-curve.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from ai-bends-the-vulnerability-curve.md
+03:33:28 [WARN] [glob-loader] Duplicate id "ai-and-threat-modeling-augmentation-not-automation-yet" found in /app/src/content/blog/ai-and-threat-modeling-augmentation-not-automation-yet.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from ai-and-threat-modeling-augmentation-not-automation-yet.md
+03:33:28 [WARN] [glob-loader] Duplicate id "scheduling-cti-automating-cyber-threat-intelligence-with-ai" found in /app/src/content/blog/scheduling-cti-automating-cyber-threat-intelligence-with-ai.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from scheduling-cti-automating-cyber-threat-intelligence-with-ai.md
+03:33:28 [glob-loader] Reloaded data from the-security-program-why-fundamentals-for-enabling-success.md
+03:33:28 [WARN] [glob-loader] Duplicate id "from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai" found in /app/src/content/blog/from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai.md
+03:33:28 [WARN] [glob-loader] Duplicate id "ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy" found in /app/src/content/blog/ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy.md
+03:33:28 [WARN] [glob-loader] Duplicate id "overcoming-security-architecture-challenges-the-promise-of-ai" found in /app/src/content/blog/overcoming-security-architecture-challenges-the-promise-of-ai.md. Later items with the same id will overwrite earlier ones.
+03:33:28 [glob-loader] Reloaded data from overcoming-security-architecture-challenges-the-promise-of-ai.md
+03:33:28 [glob-loader] Reloaded data from organizational-security-policy-as-code.md
+03:33:28 [WARN] [glob-loader] Duplicate id "job-description-to-done-developing-an-ai-prompt-for-making-prompts" found in /app/src/content/blog/job-description-to-done-developing-an-ai-prompt-for-making-prompts.md. Later items with the same id will overwrite earlier ones.
+03:33:29 [glob-loader] Reloaded data from job-description-to-done-developing-an-ai-prompt-for-making-prompts.md
+03:33:50 [200] / 8ms
+03:33:50 [200] /blog 42ms
+03:34:58 [glob-loader] Reloaded data from a-review-of-csa-top-threats-to-cloud-computing-2024.md
+03:34:58 [glob-loader] Reloaded data from ai-and-threat-modeling-augmentation-not-automation-yet.md
+03:34:58 [glob-loader] Reloaded data from ai-bends-the-vulnerability-curve.md
+03:34:58 [glob-loader] Reloaded data from ai-in-the-enterprise-building-a-checklist-for-ai-adoption.md
+03:34:58 [glob-loader] Reloaded data from ai-security-policy-exploring-threats-to-workforce-ai-tools-and-building-policy.md
+03:34:58 [glob-loader] Reloaded data from collect-and-conquer-security-question-frameworks-for-onboarding.md
+03:34:59 [glob-loader] Reloaded data from fortifying-flavors-a-comparison-of-security-programs-and-the-path-to-maturity.md
+03:34:59 [glob-loader] Reloaded data from from-ceremony-to-habit-continuous-threat-modeling-with-the-cli-and-ai.md
+03:34:59 [glob-loader] Reloaded data from job-description-to-done-developing-an-ai-prompt-for-making-prompts.md
+03:34:59 [glob-loader] Reloaded data from organizational-security-policy-as-code.md
+03:34:59 [glob-loader] Reloaded data from overcoming-security-architecture-challenges-the-promise-of-ai.md
+03:34:59 [glob-loader] Reloaded data from phasing-out-how-ai-will-reduce-the-need-for-security-architects-and-reshape-everything.md
+03:34:59 [glob-loader] Reloaded data from productivity-is-your-new-insider-threat.md
+03:34:59 [WARN] [glob-loader] Duplicate id "review-csas-cbra-for-ai-systems" found in /app/src/content/blog/review-csas-cbra-for-ai-systems.md. Later items with the same id will overwrite earlier ones.
+03:34:59 [glob-loader] Reloaded data from review-csas-cbra-for-ai-systems.md
+03:34:59 [glob-loader] Reloaded data from scheduling-cti-automating-cyber-threat-intelligence-with-ai.md
+03:34:59 [WARN] [glob-loader] Duplicate id "the-saas-security-controls-profile-sscp" found in /app/src/content/blog/the-saas-security-controls-profile-sscp.md. Later items with the same id will overwrite earlier ones.
+03:34:59 [glob-loader] Reloaded data from the-saas-security-controls-profile-sscp.md
+03:34:59 [glob-loader] Reloaded data from the-security-policy-as-code-framework-model.md
+03:34:59 [glob-loader] Reloaded data from the-security-program-why-fundamentals-for-enabling-success.md
+03:34:59 [glob-loader] Reloaded data from the-shrinking-moat-examining-job-security-in-the-age-of-ai.md
+03:34:59 [glob-loader] Reloaded data from what-over-how-from-process-design-to-goal-definition-with-ai-agents.md
