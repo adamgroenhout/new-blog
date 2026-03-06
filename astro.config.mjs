@@ -6,6 +6,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://adamgroenhout.com',
+	site: 'https://adamgroenhout.github.io',
+	base: '/new-blog',
 	integrations: [mdx(), sitemap()],
 });
