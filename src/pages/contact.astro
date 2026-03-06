@@ -1,0 +1,64 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+const title = `Contact | ${SITE_TITLE}`;
+const description = "Get in touch with Adam Groenhout.";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+		<style>
+			main {
+				width: 920px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 0.5em 1em 3em 1em;
+			}
+			h1 {
+				margin-bottom: 1em;
+			}
+			.contact-links {
+				list-style-type: none;
+				padding: 0;
+			}
+			.contact-links li {
+				margin-bottom: 1rem;
+				font-size: 1.2em;
+			}
+			.contact-links a {
+				text-decoration: none;
+				font-weight: 600;
+			}
+			.contact-links a:hover {
+				color: var(--accent);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Contact</h1>
+			<p>
+				I'm always open to discussing security leadership, resilience, and new ideas. Whether you have a question, a project in mind, or just want to connect, feel free to reach out.
+			</p>
+			
+			<ul class="contact-links">
+				<li>
+					<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/adamgroenhout/" target="_blank" rel="noopener noreferrer">adamgroenhout</a>
+				</li>
+				<li>
+					<strong>GitHub:</strong> <a href="https://github.com/adamgroenhout" target="_blank" rel="noopener noreferrer">adamgroenhout</a>
+				</li>
+				<li>
+					<strong>Email:</strong> <a href="mailto:adam@adamgroenhout.com">adam@adamgroenhout.com</a>
+				</li>
+			</ul>
+		</main>
+		<Footer />
+	</body>
+</html>

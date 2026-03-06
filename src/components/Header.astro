@@ -5,10 +5,11 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href="/new-blog/">{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
+			<HeaderLink href="/new-blog/">Home</HeaderLink>
+			<HeaderLink href="/new-blog/blog">Blog</HeaderLink>
+			<HeaderLink href="/new-blog/contact">Contact</HeaderLink>
 		</div>
 		<div class="social-links">
 		</div>
@@ -22,28 +23,34 @@ import HeaderLink from './HeaderLink.astro';
 	}
 	h2 {
 		margin: 0;
-		font-size: 1.2em;
-	}
-
-	h2 a,
-	h2 a.active {
-		text-decoration: none;
-		color: var(--black);
+		font-size: 2em;
 	}
 	nav {
-		width: 720px;
+		width: 920px;
 		max-width: calc(100% - 2em);
 		margin: auto;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 1em;
+		padding: 1em 1em;
+	}
+	.internal-links {
+		display: flex;
+		justify-content: flex-end;
+		flex-grow: 1;
+		gap: 0.5em;
 	}
 	nav a {
 		padding: 1em 0.5em;
 		color: var(--black);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
+	}
+	h2 a {
+		padding-left: 0;
+	}
+	.internal-links a:last-child {
+		padding-right: 0;
 	}
 	nav a.active {
 		text-decoration: none;
