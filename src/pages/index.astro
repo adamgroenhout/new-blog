@@ -2,17 +2,64 @@
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
 ---
 
 <!doctype html>
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.hero-image {
+				width: 100%;
+				max-width: 100%;
+				height: auto;
+				border-radius: 12px;
+				margin-bottom: 2em;
+			}
+			.post-list {
+				list-style-type: none;
+				padding: 0;
+				margin: 0;
+			}
+			.post-list li {
+				margin-bottom: 1.5rem;
+				display: flex;
+				flex-direction: column;
+			}
+			.post-list a {
+				text-decoration: none;
+				color: rgb(var(--black));
+				font-weight: 600;
+				font-size: 1.1em;
+			}
+			.post-list a:hover {
+				color: var(--accent);
+			}
+			.post-date {
+				color: rgb(var(--gray));
+				font-size: 0.9em;
+				margin: 0.2em 0 0 0;
+			}
+			section h2 {
+				margin-top: 2em;
+				margin-bottom: 1em;
+				font-size: 1.5em;
+				border-bottom: 1px solid rgb(var(--gray-light));
+				padding-bottom: 0.3em;
+			}
+		</style>
 	</head>
 	<body>
 		<Header />
 		<main>
+			<img class="hero-image" src="https://i.imgur.com/prYWn6N.png" alt="Adam Groenhout hero image" />
 			<h1>Hi, I'm Adam.</h1>
 			<p>
 				I work as a security leader to protect organizations and build a more resilient and trustworthy world.
@@ -20,6 +67,22 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 			<p>
 				This is a personal blog, where I explore and share ideas.
 			</p>
+
+			<section>
+				<h2>Recent Posts</h2>
+				<ul class="post-list">
+					{
+						posts.map((post) => (
+							<li>
+								<a href={`/blog/${post.id}/`}>{post.data.title}</a>
+								<p class="post-date">
+									<FormattedDate date={post.data.pubDate} />
+								</p>
+							</li>
+						))
+					}
+				</ul>
+			</section>
 		</main>
 		<Footer />
 	</body>
