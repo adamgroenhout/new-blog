@@ -17,23 +17,27 @@ import HeaderLink from './HeaderLink.astro';
 <style>
 	header {
 		margin: 0;
-		padding: 0 1em;
-		background: white;
-		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+		padding: 0;
+		background: transparent;
 	}
 	h2 {
 		margin: 0;
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 
 	h2 a,
 	h2 a.active {
 		text-decoration: none;
+		color: var(--black);
 	}
 	nav {
+		width: 720px;
+		max-width: calc(100% - 2em);
+		margin: auto;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		padding: 1em;
 	}
 	nav a {
 		padding: 1em 0.5em;
