@@ -20,8 +20,7 @@ const { title, description, image = FallbackImage } = Astro.props;
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href={import.meta.env.BASE_URL.replace(/\/$/, '') + '/favicon.svg?v=2'} />
-<!-- <link rel="icon" type="image/x-icon" href={import.meta.env.BASE_URL.replace(/\/$/, '') + '/favicon.ico'} /> -->
+<link rel="icon" type="image/svg+xml" href={import.meta.env.BASE_URL.replace(/\/$/, '') + '/favicon.svg'} />
 <link rel="sitemap" href={import.meta.env.BASE_URL.replace(/\/$/, '') + '/sitemap-index.xml'} />
 <link
 	rel="alternate"
