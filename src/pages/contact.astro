@@ -55,10 +55,21 @@ const description = "Get in touch with Adam Groenhout.";
 					<strong>GitHub:</strong> <a href="https://github.com/adamgroenhout" target="_blank" rel="noopener noreferrer">adamgroenhout</a>
 				</li>
 				<li>
-					<strong>Email:</strong> <a href="mailto:adam@adamgroenhout.com">adam@adamgroenhout.com</a>
+					<strong>Email:</strong> <a href="#" id="email-link" data-user="adam" data-domain="adamgroenhout.com">[Email]</a>
 				</li>
 			</ul>
 		</main>
+
+		<script>
+			const emailLink = document.getElementById('email-link') as HTMLAnchorElement;
+			if (emailLink) {
+				const user = emailLink.getAttribute('data-user');
+				const domain = emailLink.getAttribute('data-domain');
+				const email = `${user}@${domain}`;
+				emailLink.href = `mailto:${email}`;
+				emailLink.textContent = email;
+			}
+		</script>
 		<Footer />
 	</body>
 </html>
