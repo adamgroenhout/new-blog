@@ -24,6 +24,7 @@ jobs:
         with:
           # Using NPM since package-lock.json is in the repo
           package-manager: npm@latest
+          node-version: 22
 
   deploy:
     needs: build
