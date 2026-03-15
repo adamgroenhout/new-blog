@@ -1,6 +1,6 @@
 ---
-title: "AI In The Enterprise Building A Checklist For AI Adoption"
-description: "AI In The Enterprise Building A Checklist For AI Adoption"
+title: "AI in the Enterprise: Building a Checklist for AI Adoption"
+description: "AI in the Enterprise: Building a Checklist for AI Adoption"
 pubDate: "2024-10-12"
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Organizational Security Policy As Code"
-description: "Organizational Security Policy As Code"
+title: "Organizational Security Policy as Code"
+description: "Organizational Security Policy as Code"
 pubDate: "2025-08-11"
 ---
 

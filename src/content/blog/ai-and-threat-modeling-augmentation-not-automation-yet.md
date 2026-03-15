@@ -1,6 +1,6 @@
 ---
-title: "AI And Threat Modeling Augmentation Not Automation Yet"
-description: "AI And Threat Modeling Augmentation Not Automation Yet"
+title: "AI and Threat Modeling: Augmentation, Not Automation (Yet)"
+description: "AI and Threat Modeling: Augmentation, Not Automation (Yet)"
 pubDate: "2025-05-08"
 ---
 

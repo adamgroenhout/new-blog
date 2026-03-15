@@ -1,6 +1,6 @@
 ---
-title: "Collect And Conquer Security Question Frameworks For Onboarding"
-description: "Collect And Conquer Security Question Frameworks For Onboarding"
+title: "Collect and Conquer: Security Question Frameworks for Onboarding"
+description: "Collect and Conquer: Security Question Frameworks for Onboarding"
 pubDate: "2024-08-24"
 ---
 

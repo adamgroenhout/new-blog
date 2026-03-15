@@ -1,6 +1,6 @@
 ---
-title: "Overcoming Security Architecture Challenges The Promise Of AI"
-description: "Overcoming Security Architecture Challenges The Promise Of AI"
+title: "Overcoming Security Architecture Challenges: The Promise of AI"
+description: "Overcoming Security Architecture Challenges: The Promise of AI"
 pubDate: "2024-06-27"
 ---
 

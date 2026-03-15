@@ -1,6 +1,6 @@
 ---
-title: "The Security Policy As Code Framework Model"
-description: "The Security Policy As Code Framework Model"
+title: "The Security Policy as Code Framework Model"
+description: "The Security Policy as Code Framework Model"
 pubDate: "2025-08-23"
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Review CSAs CBRA For AI Systems"
-description: "Review CSAs CBRA For AI Systems"
+title: "Review: CSA's CBRA for AI Systems"
+description: "Review: CSA's CBRA for AI Systems"
 pubDate: "2025-12-23"
 ---
 

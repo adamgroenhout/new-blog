@@ -1,6 +1,6 @@
 ---
-title: "What Over How From Process Design To Goal Definition With AI Agents"
-description: "What Over How From Process Design To Goal Definition With AI Agents"
+title: "What Over How: From Process Design to Goal Definition with AI Agents"
+description: "What Over How: From Process Design to Goal Definition with AI Agents"
 pubDate: "2025-05-31"
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "Productivity Is Your New Insider Threat"
-description: "Productivity Is Your New Insider Threat"
+title: "Productivity is Your New Insider Threat"
+description: "Productivity is Your New Insider Threat"
 pubDate: "2025-07-20"
 ---
 

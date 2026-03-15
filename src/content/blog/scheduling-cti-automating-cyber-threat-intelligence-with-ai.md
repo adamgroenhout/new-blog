@@ -1,6 +1,6 @@
 ---
-title: "Scheduling CTI Automating Cyber Threat Intelligence With AI"
-description: "Scheduling CTI Automating Cyber Threat Intelligence With AI"
+title: "Scheduling CTI: Automating Cyber Threat Intelligence with AI"
+description: "Scheduling CTI: Automating Cyber Threat Intelligence with AI"
 pubDate: "2025-06-30"
 ---
 
