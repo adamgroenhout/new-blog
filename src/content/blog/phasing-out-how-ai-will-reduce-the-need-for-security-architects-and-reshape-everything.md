@@ -1,6 +1,6 @@
 ---
-title: "Phasing Out How AI Will Reduce The Need For Security Architects And Reshape Everything"
-description: "Phasing Out How AI Will Reduce The Need For Security Architects And Reshape Everything"
+title: "Phasing Out: How AI will Reduce the Need for Security Architects and Reshape Everything"
+description: "Phasing Out: How AI will Reduce the Need for Security Architects and Reshape Everything"
 pubDate: "2024-07-30"
 ---
 

@@ -1,6 +1,6 @@
 ---
-title: "From Ceremony To Habit Continuous Threat Modeling With The CLI And AI"
-description: "From Ceremony To Habit Continuous Threat Modeling With The CLI And AI"
+title: "From Ceremony to Habit: Continuous Threat Modeling with the CLI and AI"
+description: "From Ceremony to Habit: Continuous Threat Modeling with the CLI and AI"
 pubDate: "2025-10-11"
 ---
 

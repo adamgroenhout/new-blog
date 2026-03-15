@@ -1,6 +1,6 @@
 ---
-title: "The Shrinking Moat Examining Job Security In The Age Of AI"
-description: "The Shrinking Moat Examining Job Security In The Age Of AI"
+title: "The Shrinking Moat: Examining Job Security in the Age of AI"
+description: "The Shrinking Moat: Examining Job Security in the Age of AI"
 pubDate: "2025-03-15"
 ---
 

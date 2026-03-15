@@ -1,6 +1,6 @@
 ---
-title: "The Security Program Why Fundamentals For Enabling Success"
-description: "The Security Program Why Fundamentals For Enabling Success"
+title: "The Security Program Why: Fundamentals for Enabling Success"
+description: "The Security Program Why: Fundamentals for Enabling Success"
 pubDate: "2024-12-29"
 ---
 

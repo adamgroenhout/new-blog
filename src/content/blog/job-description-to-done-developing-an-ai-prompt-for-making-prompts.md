@@ -1,6 +1,6 @@
 ---
-title: "Job Description To Done Developing An AI Prompt For Making Prompts"
-description: "Job Description To Done Developing An AI Prompt For Making Prompts"
+title: "Job Description to Done: Developing an AI Prompt for Making Prompts"
+description: "Job Description to Done: Developing an AI Prompt for Making Prompts"
 pubDate: "2024-09-20"
 ---
 

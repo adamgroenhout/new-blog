@@ -1,6 +1,6 @@
 ---
-title: "AI Security Policy Exploring Threats To Workforce AI Tools And Building Policy"
-description: "AI Security Policy Exploring Threats To Workforce AI Tools And Building Policy"
+title: "AI Security Policy: Exploring Threats to Workforce AI Tools and Building Policy"
+description: "AI Security Policy: Exploring Threats to Workforce AI Tools and Building Policy"
 pubDate: "2025-02-09"
 ---
 

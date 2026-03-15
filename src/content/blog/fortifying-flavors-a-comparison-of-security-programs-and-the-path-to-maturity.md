@@ -1,6 +1,6 @@
 ---
-title: "Fortifying Flavors A Comparison Of Security Programs And The Path To Maturity"
-description: "Fortifying Flavors A Comparison Of Security Programs And The Path To Maturity"
+title: "Fortifying Flavors: A Comparison of Security Programs and the Path to Maturity"
+description: "Fortifying Flavors: A Comparison of Security Programs and the Path to Maturity"
 pubDate: "2024-12-07"
 ---
 

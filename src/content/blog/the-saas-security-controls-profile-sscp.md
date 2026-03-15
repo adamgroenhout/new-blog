@@ -1,6 +1,6 @@
 ---
-title: "The SaaS Security Controls Profile SSCP"
-description: "The SaaS Security Controls Profile SSCP"
+title: "The SaaS Security Controls Profile (SSCP)"
+description: "The SaaS Security Controls Profile (SSCP)"
 pubDate: "2025-12-01"
 ---
 
