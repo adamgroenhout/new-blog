@@ -8,7 +8,7 @@ pubDate: "2025-08-23"
 
 # Intro
 
-[My last post](https://www.adamgroenhout.com/organizational-security-policy-as-code/) introduced a framework for security policy as code. This post is its practical companion. I created a live model of the framework in a public GitHub repository. Its purpose is to demonstrate the framework and visualize its efficiency and real-world viability. This wasn't a long, complicated exercise. In around just 30 minutes, I built the core of the repository content and functions, and then iterated from there. I did this with the help of Google’s Jules. More on that in a moment, but first, here is a quick overview of what’s in the repo.
+[My last post](/blog/20250811-organizational-security-policy-as-code/) introduced a framework for security policy as code. This post is its practical companion. I created a live model of the framework in a public GitHub repository. Its purpose is to demonstrate the framework and visualize its efficiency and real-world viability. This wasn't a long, complicated exercise. In around just 30 minutes, I built the core of the repository content and functions, and then iterated from there. I did this with the help of Google’s Jules. More on that in a moment, but first, here is a quick overview of what’s in the repo.
 
 # The Model
 
