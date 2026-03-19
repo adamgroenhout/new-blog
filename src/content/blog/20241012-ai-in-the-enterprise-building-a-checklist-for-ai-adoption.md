@@ -8,7 +8,7 @@ pubDate: "2024-10-12"
 
 # Overview
 
-I want to highlight two things with this post. The first is enterprise adoption of artificial intelligence (AI) and an [essay by Ethan Mollick](https://www.oneusefulthing.org/p/ai-in-organizations-some-tactics) on the topic, and how to make solutions to overcoming common challenges and barriers more tractable. The second is an approach to extracting actionable recommendations as a checklist from any content using AI. I use Mollick’s recommendations as the example text.
+I want to highlight two things with this post. The first is enterprise adoption of artificial intelligence (AI) and an [essay by Ethan Mollick](https://web.archive.org/web/20241012130321/https://www.oneusefulthing.org/p/ai-in-organizations-some-tactics) on the topic, and how to make solutions to overcoming common challenges and barriers more tractable. The second is an approach to extracting actionable recommendations as a checklist from any content using AI. I use Mollick’s recommendations as the example text.
 
 # Enterprise AI Adoption
 
