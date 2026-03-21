@@ -29,15 +29,28 @@ const posts = (await getCollection('blog')).sort(
 				margin: 0;
 			}
 			.post-list li {
-				margin-bottom: 1.5rem;
+				margin-bottom: 1rem;
 				display: flex;
 				flex-direction: column;
+				transition: 0.3s ease;
+				border-radius: 12px;
 			}
-			.post-list a {
+			.post-list li a {
+				display: block;
+				padding: 1rem;
+				margin: -1rem;
 				text-decoration: none;
 				color: rgb(var(--black));
 				font-weight: 600;
-				font-size: 1.1em;
+				font-size: 1.563em;
+				border-radius: 12px;
+				transition: 0.3s ease;
+				line-height: 1.2;
+			}
+			.post-list li a:hover {
+				transform: translateY(-4px);
+				background: rgba(var(--gray-light), 0.3);
+				color: var(--accent);
 			}
 			.post-list a:hover {
 				color: var(--accent);

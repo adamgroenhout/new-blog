@@ -15,9 +15,15 @@ import HeaderLink from './HeaderLink.astro';
 </header>
 <style>
 	header {
+		position: sticky;
+		top: 0;
+		z-index: 100;
 		margin: 0;
 		padding: 0;
-		background: transparent;
+		background: rgba(252, 248, 241, 0.8);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+		border-bottom: 1px solid rgba(var(--gray-light), 0.5);
 	}
 	h2 {
 		margin: 0;
@@ -30,7 +36,7 @@ import HeaderLink from './HeaderLink.astro';
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding: 1em 1em;
+		padding: 0.5em 1em;
 		flex-wrap: wrap;
 	}
 	.internal-links {
