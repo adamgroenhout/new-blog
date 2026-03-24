@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
+import { parseFilename } from './publish-utils.mjs';
 
 const driveBlogPath = '/mnt/chromeos/GoogleDrive/MyDrive/Blog';
 const draftsPath = path.join(driveBlogPath, 'Drafts');
@@ -35,12 +36,7 @@ content = content
     .replace(/\\-/g, '-')
     .replace(/\\`/g, '`');
 
-// Strip YYYYMMDD prefix and extension for the title/slug
-const nameMatch = filename.replace(/\.(md|txt)$/, '').match(/^(\d{8}\s*-\s*)?(.+)$/);
-const rawTitle = nameMatch ? nameMatch[2] : filename;
-
-const title = rawTitle.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-const slug = rawTitle.toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+const { title, slug } = parseFilename(filename);
 
 // Use local date instead of UTC
 const date = new Date();
