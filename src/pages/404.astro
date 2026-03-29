@@ -1,0 +1,43 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+
+const title = `404 Not Found | ${SITE_TITLE}`;
+const description = "The page you're looking for doesn't exist.";
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+		<style>
+			main {
+				width: 920px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+				text-align: center;
+			}
+			h1 {
+				font-size: 4em;
+				margin-bottom: 0.2em;
+			}
+			p {
+				font-size: 1.2em;
+				margin-bottom: 2em;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>404</h1>
+			<p>Oops! The page you're looking for doesn't exist.</p>
+			<a href={baseUrl + '/'}>&larr; Go back home</a>
+		</main>
+		<Footer />
+	</body>
+</html>
