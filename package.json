@@ -19,7 +19,7 @@
     "typescript": "6.0.3"
   },
   "overrides": {
-    "fast-xml-parser": "5.5.8",
+    "fast-xml-parser": "5.7.0",
     "yaml": "2.8.3"
   }
 }
