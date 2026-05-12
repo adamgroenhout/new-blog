@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { execSync } from 'child_process';
+import { spawnSync } from 'child_process';
 import { parseFilename } from './publish-utils.mjs';
 
 const driveBlogPath = '/mnt/chromeos/GoogleDrive/MyDrive/Blog';
@@ -10,6 +10,12 @@ const publishedPath = path.join(driveBlogPath, 'Published');
 const filename = process.argv[2]; // e.g., "20260317 - My Post.md"
 if (!filename) {
     console.error('Usage: node publish.mjs <filename.md>');
+    process.exit(1);
+}
+
+// 0. Security Check: Prevent Path Traversal
+if (filename.includes('..') || filename.startsWith('/') || filename.includes('\\')) {
+    console.error('❌ Invalid filename: Path traversal characters are not allowed.');
     process.exit(1);
 }
 
@@ -69,11 +75,16 @@ console.log(`✅ Created: ${destFileName}`);
 // 3. Git Operations
 try {
     console.log('🚀 Pushing to GitHub...');
-    execSync(`git add ${destFileName}`);
-    execSync(`git commit -m "feat: publish ${title}"`);
-    execSync('git push origin main');
+    const add = spawnSync('git', ['add', destFileName]);
+    if (add.error || add.status !== 0) throw new Error(add.stderr?.toString() || 'git add failed');
+
+    const commit = spawnSync('git', ['commit', '-m', `feat: publish ${title}`]);
+    if (commit.error || commit.status !== 0) throw new Error(commit.stderr?.toString() || 'git commit failed');
+
+    const push = spawnSync('git', ['push', 'origin', 'main']);
+    if (push.error || push.status !== 0) throw new Error(push.stderr?.toString() || 'git push failed');
 } catch (error) {
-    console.error('❌ Git push failed. Ensure you are authenticated.');
+    console.error(`❌ Git push failed: ${error.message}`);
     process.exit(1);
 }
 
