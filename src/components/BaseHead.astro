@@ -23,6 +23,8 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href={baseUrl + '/favicon.svg'} />
 <link rel="sitemap" href={baseUrl + '/sitemap-index.xml'} />
+<link rel="llms-txt" href={new URL(baseUrl + '/llms.txt', Astro.site)} />
+<link rel="service-doc" href={new URL(baseUrl + '/llms.txt', Astro.site)} />
 <link
 	rel="alternate"
 	type="application/rss+xml"

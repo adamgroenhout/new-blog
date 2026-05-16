@@ -9,6 +9,20 @@ import { getCollection } from 'astro:content';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+const site = Astro.site?.toString().replace(/\/$/, '') || '';
+const llmsUrl = `${site}${baseUrl}/llms.txt`;
+const rssUrl = `${site}${baseUrl}/rss.xml`;
+const sitemapUrl = `${site}${baseUrl}/sitemap-index.xml`;
+
+const links = [
+	`<${llmsUrl}>; rel="llms-txt service-doc"`,
+	`<${rssUrl}>; rel="alternate"; type="application/rss+xml"`,
+	`<${sitemapUrl}>; rel="sitemap"`,
+];
+
+Astro.response.headers.set('Link', links.join(', '));
 ---
 
 <!doctype html>
